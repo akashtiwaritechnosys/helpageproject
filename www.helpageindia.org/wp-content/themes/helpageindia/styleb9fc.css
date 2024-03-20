@@ -1185,7 +1185,7 @@ a.btn-red:focus {
 }
 
 .navigation {
-  background: #45A4DB;;
+  background: #C2E9FF;
   height: 70px;
   position: relative;
 }
@@ -2990,7 +2990,8 @@ input#subscribe_comments {
 #commentform textarea {
   width: 100%;
   padding: 5px 10px;
-  background: #f4ebcc;
+  background: #3e7494d0;
+  color: white;
   border: none;
   margin: 5px 0;
   font-size: 1em;
@@ -3026,7 +3027,9 @@ input#subscribe_comments {
 }
 
 .donate_temp h6 {
-  color: linear-gradient(#E4324A ,#BB1D67);
+  background: -webkit-linear-gradient(#E4324A ,#BB1D67);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
   font-size: 14px;
   font-weight: 700;
   font-family: 'Open Sans', sans-serif;
@@ -3075,7 +3078,9 @@ input#subscribe_comments {
 }
 
 .eaddress label.label span {
-  color: linear-gradient(#E4324A ,#BB1D67);
+  background: -webkit-linear-gradient(#E4324A ,#BB1D67);
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
   display: inline-block;
   vertical-align: top;
 }
