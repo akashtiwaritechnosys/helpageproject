@@ -1188,6 +1188,8 @@ a.btn-red:focus {
   background: #0A041E;
   height: 70px;
   position: relative;
+  color: #FFFFFF;
+
 }
 
 .navigation .navbar-nav {
