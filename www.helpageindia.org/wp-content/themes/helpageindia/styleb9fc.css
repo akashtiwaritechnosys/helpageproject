@@ -1,3 +1,5 @@
+@import url(root.css);
+
 /*
 Theme Name: HelpAge India
 Theme URI: https://www.helpageindia.org/
@@ -1185,11 +1187,18 @@ a.btn-red:focus {
 }
 
 .navigation {
-  background: #0A041E;
+  background: var(--bs-blue-color-1);
   height: 70px;
   position: relative;
-  color: #FFFFFF;
+  color: var(--bs-white);
 
+}
+
+.navbar-brand>img{
+  width: auto;
+   height: 55px;
+    margin-top: -10px;
+     object-fit: cover;
 }
 
 .navigation .navbar-nav {
@@ -1197,8 +1206,9 @@ a.btn-red:focus {
   margin-right: 120px;
 }
 
+
 .navigation .navbar-nav>li>a {
-  color: #FFFFFF;
+  color: var(--bs-white);
   font-size: 13px !important;
   text-transform: uppercase;
   font-weight: 700;
@@ -1209,7 +1219,7 @@ a.btn-red:focus {
 .navigation .navbar-nav>li>a:hover,
 .navigation .navbar-nav>li>a:focus,
 .navigation .navbar-nav>li.active>a {
-  color: #FFFFFF;
+  color: var(--bs-white);
   background: #0362BE;
 }
 
