@@ -918,7 +918,7 @@ border-color: #dee2e6 #dee2e6 #fff;
 }
 
 .navigation {
-    background: #f0be07;
+    background-color: #0A041E;
     height: 70px;
     align-items: center;
 }
@@ -931,7 +931,8 @@ border-color: #dee2e6 #dee2e6 #fff;
     font-size: 20px;
     display: block;
     min-height: 70px;
-    background: url(images/donate-icon.html) no-repeat right bottom #cd202c;
+    background: url(images/donate-icon.html) no-repeat right bottom ;
+    background-image: linear-gradient(#E4324A ,#BB1D67);
     line-height: 70px;
     text-transform: uppercase;
     font-weight: 700;
@@ -966,7 +967,7 @@ border-color: #dee2e6 #dee2e6 #fff;
     font-size: 11px;
     font-family: 'Oswald', sans-serif;
     text-align: center;
-    color: #cda40d;
+    color:  #45A4DB;
     margin: 0 8px;
     background-color: white;
     min-width: 157.08px;
@@ -990,7 +991,7 @@ border-color: #dee2e6 #dee2e6 #fff;
 }
 
 .help_contact li:hover {
-    border-color: #cda40d;
+    border-color:  #45A4DB;
 }
 
 .help_contact:hover {
@@ -1059,7 +1060,7 @@ border-color: #dee2e6 #dee2e6 #fff;
     }
 
     .navigation {
-        background: #f0be07 !important;
+        background: #0A041E !important;
     }
 }
 

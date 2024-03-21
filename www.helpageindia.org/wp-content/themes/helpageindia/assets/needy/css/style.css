@@ -363,7 +363,7 @@ header {
 .dollbtn a {
   color: #fff;
   padding: 7px 15px;
-  background: linear-gradient(#E4324A ,#BB1D67);
+  background-image: linear-gradient(#e4324a, #bb1d67);
   font-size: 15px;
   -webkit-transition: all 0.4s ease;
   transition: all 0.4s ease;
@@ -650,7 +650,7 @@ span.elderly {
 
 .login-area a {
   width: auto;
-  background: linear-gradient(#E4324A ,#BB1D67);
+  background-image: linear-gradient(#e4324a, #bb1d67);
   font-weight: 600;
   color: #fff;
   font-size: 16px;
@@ -663,7 +663,7 @@ span.elderly {
 
 .login-area a:hover,
 .login-area a:focus {
-  box-shadow: 0 0 0 2px white, 0 0 0 2px linear-gradient(#E4324A ,#BB1D67);
+  box-shadow: 0 0 0 2px white, 0 0 0 2px linear-gradient(#e4324a, #bb1d67);
 }
 
 footer#stop-fixed {
@@ -686,12 +686,16 @@ footer#stop-fixed {
   margin-bottom: 18px;
 }
 .header-form p {
-  color: linear-gradient(#E4324A ,#BB1D67);
+  background: -webkit-linear-gradient(#E4324A ,#BB1D67);
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
   font-size: 16px;
   text-align: center;
 }
 .header-form p.font-13 {
-  color: linear-gradient(#E4324A ,#BB1D67);
+  background: -webkit-linear-gradient(#E4324A ,#BB1D67);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
   font-size: 14px;
   text-align: center;
 }
@@ -983,7 +987,7 @@ span.elderly2 {
   background-color: #f9690e;
 }
 .bg-3 {
-  background-color: #45A4DB;
+  background-color: #45a4db;
 }
 .skill-flex1 .card-detail h5 {
   margin: 5px 10px 10px 0;
@@ -1168,7 +1172,7 @@ span.elderly2 {
   color: white;
 }
 .social-icon .fa-youtube:hover {
-  background: #bb0000;
+  background-image: linear-gradient(#E4324A ,#BB1D67);
   color: white;
 }
 .social-icon .fa-instagram {
@@ -1210,12 +1214,12 @@ span.elderly2 {
   z-index: 1;
   -webkit-transition: all 0.3s ease-in-out;
   transition: all 0.3s ease-in-out;
-  background-color: rgba(223, 3, 44, 0.9);
+  background-image: linear-gradient(#E4324A ,#BB1D67);
   outline: none;
   border: none;
 }
 .btn-primary-round:before {
-  background-color: linear-gradient(#E4324A ,#BB1D67);
+  background-image: linear-gradient(#E4324A ,#BB1D67);
 }
 .btn-primary-round.btn-round:hover {
   color: #ffffff;
@@ -1248,10 +1252,12 @@ span.elderly2 {
 }
 .btn-round,
 .btn-round:hover {
-  color: linear-gradient(#E4324A ,#BB1D67);
+  background: -webkit-linear-gradient(#E4324A ,#BB1D67);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
 .btn-primary-round:before {
-  background-color: linear-gradient(#E4324A ,#BB1D67);
+  background-image: linear-gradient(#E4324A ,#BB1D67);
 }
 
 /********************************/
@@ -1301,7 +1307,7 @@ span.elderly2 {
 }
 
 .header-form2 {
-  background: rgba(223, 3, 44, 0.9);
+  background-image: linear-gradient(#E4324A ,#BB1D67);
   box-shadow: 0px 0 5px 0 rgba(0, 0, 0, 0.2) !important;
   border-radius: 5px;
   width: 100%;
@@ -1314,7 +1320,9 @@ span.elderly2 {
   margin-bottom: 18px;
 }
 .header-form2 p {
-  color: linear-gradient(#E4324A ,#BB1D67);
+  background: -webkit-linear-gradient(#E4324A ,#BB1D67);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
   font-size: 16px;
   text-align: center;
 }
@@ -1350,7 +1358,7 @@ span.elderly2 {
 
 .neft-link {
   position: fixed;
-  background: linear-gradient(#E4324A ,#BB1D67);
+  background-image: linear-gradient(#E4324A ,#BB1D67);
   color: #fff;
   padding: 9px 15px 9px 15px;
   font-size: 15px;
@@ -1393,11 +1401,11 @@ span.elderly2 {
 }
 
 .carousel-control-prev i {
-  background: linear-gradient(#E4324A ,#BB1D67);
+  background-image: linear-gradient(#E4324A ,#BB1D67);
   padding: 1rem;
 }
 .carousel-control-next i {
-  background: linear-gradient(#E4324A ,#BB1D67);
+  background-image: linear-gradient(#E4324A ,#BB1D67);
   padding: 1rem;
 }
 
@@ -1797,7 +1805,9 @@ span.elderly2 {
 .barcode-area a {
   font-weight: 600;
   font-size: 20px;
-  color: linear-gradient(#E4324A ,#BB1D67);
+  background: -webkit-linear-gradient(#E4324A ,#BB1D67);
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
   text-decoration: none;
   transition: all 200ms;
 }
@@ -1854,7 +1864,7 @@ span.elderly2 {
 #msform .action-button,
 #msform1 .action-button {
   width: auto;
-  background-image: linear-gradient(#E4324A ,#BB1D67);
+  background-image: linear-gradient(#e4324a, #bb1d67);
   font-weight: bold;
   color: white;
   font-size: 17px;
@@ -1868,7 +1878,7 @@ span.elderly2 {
 #msform .action-button:focus,
 #msform1 .action-button:hover,
 #msform1 .action-button:focus {
-  box-shadow: 0 0 0 2px white, 0 0 0 3px linear-gradient(#E4324A ,#BB1D67);
+  box-shadow: 0 0 0 2px white, 0 0 0 3px linear-gradient(#e4324a, #bb1d67);
 }
 
 #msform .action-button-previous,
@@ -1935,7 +1945,7 @@ select.list-dt:focus {
   margin-right: 4px;
 }
 #progressbar li.active {
-  background-image: linear-gradient(#E4324A ,#BB1D67);
+  background-image: linear-gradient(#e4324a, #bb1d67);
 }
 
 .panno12 {
@@ -1953,7 +1963,9 @@ select.list-dt:focus {
   cursor: pointer;
 }
 .anc-blink a:hover {
-  color: linear-gradient(#E4324A ,#BB1D67) !important;
+  background: -webkit-linear-gradient(#E4324A ,#BB1D67) !important;
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
   text-decoration: underline !important;
   font-size: 16px;
   font-weight: 600;
