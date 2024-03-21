@@ -1185,7 +1185,7 @@ a.btn-red:focus {
 }
 
 .navigation {
-  background: #C2E9FF;
+  background: #0A041E;
   height: 70px;
   position: relative;
 }
@@ -1196,7 +1196,7 @@ a.btn-red:focus {
 }
 
 .navigation .navbar-nav>li>a {
-  color: #000;
+  color: #FFFFFF;
   font-size: 13px !important;
   text-transform: uppercase;
   font-weight: 700;
@@ -1207,7 +1207,7 @@ a.btn-red:focus {
 .navigation .navbar-nav>li>a:hover,
 .navigation .navbar-nav>li>a:focus,
 .navigation .navbar-nav>li.active>a {
-  color: #000;
+  color: #FFFFFF;
   background: #0362BE;
 }
 
